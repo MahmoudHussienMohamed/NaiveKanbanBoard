@@ -1,5 +1,6 @@
 package com.KanbanBoard.BackEnd.repository;
 
+import org.springframework.data.mongodb.repository.Query;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.stereotype.Repository;
 import com.KanbanBoard.BackEnd.entity.Card;

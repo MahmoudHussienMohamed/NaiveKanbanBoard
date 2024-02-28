@@ -1,0 +1,9 @@
+export const CARD_ADDED   =           'cardAdded';
+export const CARD_DELETED =         'cardDeleted';
+export const CARD_UPDATED =         'cardUpdated';
+export const TITLE_PROP   =       'titleProperty';
+export const DESCR_PROP   = 'descriptionProperty';
+export const SWAP         =                'swap';
+export const SWAP_UP      =              'swapUp';
+export const SWAP_DOWN    =            'swapDown';
+export const NEXT_STAGE   =           'nextStage';

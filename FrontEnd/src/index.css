@@ -2,6 +2,7 @@
 
 body{
     font-family: "Quicksand";
+    /* font-family: Calibri; */
     background-color: #008299;
 }
 .title{
@@ -38,14 +39,26 @@ h2{
 .to-do h2{
     background: #f48897;
 }
+.to-do .card:hover{
+    box-shadow: 7px 7px 7px #f4889780;
+}
 .in-progress h2{
     background: #f4e688;
+}
+.in-progress .card:hover{
+    box-shadow: 7px 7px 7px #f4e688f0;
 }
 .review h2{
     background: #88f48e;
 }
+.review .card:hover{
+    box-shadow: 7px 7px 7px #88f48e80;
+}
 .completed h2{
     background: #88e2f4;
+}
+.completed .card:hover{
+    box-shadow: 7px 7px 7px #88e2f480;
 }
 .container{
     display: flex;
@@ -65,8 +78,9 @@ h2{
 .cards{
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: baseline;
+    justify-items: center;
     overflow-y: auto;
     height: 80%;
     max-height: 96%;

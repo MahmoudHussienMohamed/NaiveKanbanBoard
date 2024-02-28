@@ -12,5 +12,4 @@ public class CardDTO {
     private String title;
     private String description;
     private String colName;
-    private int colIndex;
 }
